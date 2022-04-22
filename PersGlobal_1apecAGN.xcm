@@ -1,0 +1,144 @@
+statistic cstat
+data 1:1 Pers_CR/result_2reg/90202046004/resultA1.pha
+response  1:1 Pers_CR/result_2reg/90202046004/resultA1.rmf
+response  2:1 Pers_CR/result_2reg/90202046004/resultA1.rmf
+arf 1:1 Pers_CR/result_2reg/90202046004/resultA1_1.arf
+arf 2:1 Pers_CR/result_2reg/90202046004/resultA2_1.arf
+backgrnd 1 Pers_CR/result_2reg/90202046004/bgdresultA1.pha
+
+data 2:2 Pers_CR/result_2reg/90202046004/resultA2.pha
+response  1:2 Pers_CR/result_2reg/90202046004/resultA2.rmf
+response  2:2 Pers_CR/result_2reg/90202046004/resultA2.rmf
+arf 1:2 Pers_CR/result_2reg/90202046004/resultA1_2.arf
+arf 2:2 Pers_CR/result_2reg/90202046004/resultA2_2.arf
+backgrnd 2 Pers_CR/result_2reg/90202046004/bgdresultA2.pha
+
+data 3:3 Pers_CR/result_2reg/90202046004/resultB1.pha
+response  1:3 Pers_CR/result_2reg/90202046004/resultB1.rmf
+response  2:3 Pers_CR/result_2reg/90202046004/resultB1.rmf
+arf 1:3 Pers_CR/result_2reg/90202046004/resultB1_1.arf
+arf 2:3 Pers_CR/result_2reg/90202046004/resultB2_1.arf
+backgrnd 3 Pers_CR/result_2reg/90202046004/bgdresultB1.pha
+
+data 4:4 Pers_CR/result_2reg/90202046004/resultB2.pha
+response  1:4 Pers_CR/result_2reg/90202046004/resultB2.rmf
+response  2:4 Pers_CR/result_2reg/90202046004/resultB2.rmf
+arf 1:4 Pers_CR/result_2reg/90202046004/resultB1_2.arf
+arf 2:4 Pers_CR/result_2reg/90202046004/resultB2_2.arf
+backgrnd 4 Pers_CR/result_2reg/90202046004/bgdresultB2.pha
+ignore 1:1-35,705-2386 2:1-34,573-673 3:1-35,707-2323 4:1-33,572-676
+gain fit 1:1
+              1      -0.01       0.01        0.5        1.5          5
+      -0.076034       0.01         -1         -1          1          1
+gain fit 2:1
+              1      -0.01       0.01        0.5        1.5          5
+/
+gain fit 1:2
+/
+/
+gain fit 2:2
+/
+/
+gain fit 1:3
+/
+     -0.0990014       0.01         -1         -1          1          1
+gain fit 2:3
+/
+/
+gain fit 1:4
+/
+/
+gain fit 2:4
+/
+/
+
+rnewpar 2:2 = 1:p2
+rnewpar 1:3 = 1:p1
+rnewpar 1:4 = 1:p2
+rnewpar 2:3 = 2:p1
+rnewpar 2:4 = 2:p2
+rnewpar 1:5 = 1:p1
+rnewpar 2:5 = 2:p1
+rnewpar 2:6 = 1:p6
+rnewpar 1:7 = 1:p1
+rnewpar 1:8 = 1:p6
+rnewpar 2:7 = 2:p1
+rnewpar 2:8 = 1:p6
+
+
+method leven 10 0.01
+abund angr
+xsect vern
+cosmo 70 0 0.73
+xset delta 0.01
+systematic 0
+model  1:s1 powerlaw + zgauss
+        1.88925        0.1          0          0         10         10
+      0.0125567      0.002          0          0          1          1
+            6.4      -0.05          0          0      1e+06      1e+06
+            0.1      -0.05          0          0         10         20
+       0.017284      -0.01     -0.999     -0.999         10         10
+    2.90146e-05       0.01          0          0      1e+20      1e+24
+= s1:p1
+= s1:p2
+= s1:p3
+= s1:p4
+= s1:p5
+= s1:p6
+= s1:p1
+= s1:p2
+= s1:p3
+= s1:p4
+= s1:p5
+= s1:p6
+= s1:p1
+= s1:p2
+= s1:p3
+= s1:p4
+= s1:p5
+= s1:p6
+model  2:s2 powerlaw + apec*constant + apec
+        1.77534       -0.1          0          0         10         10
+              0       -0.5          0          0          1          1
+        4.91408      0.002          0          0         10         10
+       0.343228       0.08          0          0          1          1
+         0.0179    -0.0007     -0.999     -0.999         10         10
+       0.443092    0.00563          0          0          1          1
+              1      -0.01          0          0      1e+10      1e+10
+        7.92319      -0.01      0.008      0.008         64         64
+= s2:p4
+= s2:p5
+              0      -0.01          0          0      1e+20      1e+24
+= s2:p1
+= s2:p2
+= s2:p3
+= s2:p4
+= s2:p5
+= s2:p6
+= s2:p7
+= s2:p8
+= s2:p9
+= s2:p10
+= s2:p11
+= s2:p1
+= s2:p2
+= s2:p3
+= s2:p4
+= s2:p5
+= s2:p6
+              1      -0.01          0          0      1e+10      1e+10
+= s2:p8
+= s2:p9
+= s2:p10
+= s2:p11
+= s2:p1
+= s2:p2
+= s2:p3
+= s2:p4
+= s2:p5
+= s2:p6
+= s2:p29
+= s2:p8
+= s2:p9
+= s2:p10
+= s2:p11

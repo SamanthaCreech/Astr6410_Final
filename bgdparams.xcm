@@ -1,0 +1,40 @@
+set id [open thermparams.dat w]
+tclout param s1:1
+scan $xspec_tclout "%20f" p
+puts $id "$p"
+tclout param s1:2
+scan $xspec_tclout "%20f" p
+puts $id "$p"
+tclout param s1:3
+scan $xspec_tclout "%20f" p
+puts $id "$p"
+
+tclout param s2:3
+scan $xspec_tclout "%20f" p
+puts $id "$p"
+tclout param s2:4
+scan $xspec_tclout "%20f" p
+puts $id "$p"
+tclout param s2:5
+scan $xspec_tclout "%20f" p
+puts $id "$p"
+tclout param s2:6
+scan $xspec_tclout "%20f" p
+puts $id "$p"
+tclout param s2:7
+scan $xspec_tclout "%20f" p
+puts $id "$p"
+tclout param s2:8
+scan $xspec_tclout "%20f" p
+puts $id "$p"
+tclout param s2:9
+scan $xspec_tclout "%20f" p
+puts $id "$p"
+tclout param s2:10
+scan $xspec_tclout "%20f" p
+puts $id "$p"
+tclout param s2:11
+scan $xspec_tclout "%20f" p
+puts $id "$p"
+close $id
+exit

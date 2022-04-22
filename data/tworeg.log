@@ -1,0 +1,106 @@
+#XSPEC version: 12.9.1p
+#Build Date/Time: Thu Nov  2 18:39:04 2017
+#
+!XSPEC12> error s2:5
+# Parameter   Confidence Range (2.706)
+#Apparent non-monotonicity in statistic space detected.
+#Current bracket values 0.0259442, 0.025325
+#and delta stat 0, 4.63612
+#but latest trial 0.0255642 gives 7.2173
+#Suggest that you check this result using the steppar command.
+#     5    0.0256346    0.0263147    (-0.000309632,0.000370474)
+#
+!XSPEC12> steppar s2:5 0.0256346 0.0263147 20
+#
+#     C-Statistic    Delta      s2:Redshift
+#                 C-Statistic             5
+#
+#          2712.8      9.0831    0    0.025635
+#            2713      9.2845    1    0.025669
+#          2712.7       8.945    2    0.025703
+#            2711      7.2267    3    0.025737
+#          2708.9      5.2171    4    0.025771
+#          2707.2      3.4645    5    0.025805
+#          2706.6      2.8456    6    0.025839
+#          2705.9      2.1396    7    0.025873
+#          2704.8      1.0498    8    0.025907
+#          2703.7   0.0073727    9    0.025941
+#          2704.1      0.4113   10    0.025975
+#            2705      1.3006   11    0.026009
+#          2706.2      2.4269   12    0.026043
+#            2707      3.3049   13    0.026077
+#          2707.1      3.3317   14    0.026111
+#          2706.9      3.1986   15    0.026145
+#          2706.7      2.9803   16    0.026179
+#          2707.3      3.5664   17    0.026213
+#          2704.9      1.1772   18    0.026247
+#          2706.9      3.1782   19    0.026281
+#          2706.4      2.7133   20    0.026315
+#
+!XSPEC12> show param
+#
+#Parameters defined:
+#========================================================================
+#Model s1:powerlaw<1>*constant<2> Source No.: 1   Active/On
+#Model Model Component  Parameter  Unit     Value
+# par  comp
+#                           Data group: 1
+#   1    1   powerlaw   PhoIndex            1.96449      +/-  1.48404E-02  
+#   2    1   powerlaw   norm                1.44704E-02  +/-  4.50761E-04  
+#   3    2   constant   factor              1.00000      frozen
+#                           Data group: 2
+#   4    1   powerlaw   PhoIndex            1.96449      = s1:p1
+#   5    1   powerlaw   norm                1.44704E-02  = s1:p2
+#   6    2   constant   factor              1.00000      = s1:p3
+#                           Data group: 3
+#   7    1   powerlaw   PhoIndex            1.96449      = s1:p1
+#   8    1   powerlaw   norm                1.44704E-02  = s1:p2
+#   9    2   constant   factor              1.00000      frozen
+#                           Data group: 4
+#  10    1   powerlaw   PhoIndex            1.96449      = s1:p1
+#  11    1   powerlaw   norm                1.44704E-02  = s1:p2
+#  12    2   constant   factor              1.00000      = s1:p9
+#________________________________________________________________________
+#
+#========================================================================
+#Model s2:powerlaw<1> + apec<2>*constant<3> Source No.: 2   Active/On
+#Model Model Component  Parameter  Unit     Value
+# par  comp
+#                           Data group: 1
+#   1    1   powerlaw   PhoIndex            2.21554      +/-  0.299809     
+#   2    1   powerlaw   norm                1.13320E-02  +/-  1.01508E-02  
+#   3    2   apec       kT         keV      4.63222      +/-  3.74171E-02  
+#   4    2   apec       Abundanc            0.355379     +/-  1.38480E-02  
+#   5    2   apec       Redshift            2.59442E-02  +/-  7.19193E-04  
+#   6    2   apec       norm                0.443786     +/-  1.44939E-02  
+#   7    3   constant   factor              1.00000      = s1:p3
+#                           Data group: 2
+#   8    1   powerlaw   PhoIndex            2.21554      = s2:p1
+#   9    1   powerlaw   norm                1.13320E-02  = s2:p2
+#  10    2   apec       kT         keV      4.63222      = s2:p3
+#  11    2   apec       Abundanc            0.355379     = s2:p4
+#  12    2   apec       Redshift            2.59442E-02  = s2:p5
+#  13    2   apec       norm                0.443786     = s2:p6
+#  14    3   constant   factor              1.00000      = s2:p7
+#                           Data group: 3
+#  15    1   powerlaw   PhoIndex            2.21554      = s2:p1
+#  16    1   powerlaw   norm                1.13320E-02  = s2:p2
+#  17    2   apec       kT         keV      4.63222      = s2:p3
+#  18    2   apec       Abundanc            0.355379     = s2:p4
+#  19    2   apec       Redshift            2.59442E-02  = s2:p5
+#  20    2   apec       norm                0.443786     = s2:p6
+#  21    3   constant   factor              1.00000      = s1:p9
+#                           Data group: 4
+#  22    1   powerlaw   PhoIndex            2.21554      = s2:p1
+#  23    1   powerlaw   norm                1.13320E-02  = s2:p2
+#  24    2   apec       kT         keV      4.63222      = s2:p3
+#  25    2   apec       Abundanc            0.355379     = s2:p4
+#  26    2   apec       Redshift            2.59442E-02  = s2:p5
+#  27    2   apec       norm                0.443786     = s2:p6
+#  28    3   constant   factor              1.00000      = s2:p21
+#________________________________________________________________________
+#
+#
+!XSPEC12> exit
+# XSPEC: quit
+#

@@ -1,0 +1,204 @@
+statistic cstat
+data 1:1 Pers_CR/arfnewreg/90202046004/newregA1.pha
+response  1:1 Pers_CR/arfnewreg/90202046004/newregA1.rmf
+response  2:1 Pers_CR/arfnewreg/90202046004/newregA1.rmf
+response  3:1 Pers_CR/arfnewreg/90202046004/newregA1.rmf
+response  4:1 Pers_CR/arfnewreg/90202046004/newregA1.rmf
+arf 1:1 Pers_CR/arfnewreg/90202046004/newregA1_1.arf
+arf 2:1 Pers_CR/arfnewreg/90202046004/newregA2_1.arf
+arf 3:1 Pers_CR/arfnewreg/90202046004/newregA3_1.arf
+arf 4:1 Pers_CR/arfnewreg/90202046004/newregA4_1.arf
+backgrnd 1 Pers_CR/arfnewreg/90202046004/bgdnewregA1.pha
+
+data 2:2 Pers_CR/arfnewreg/90202046004/newregA2.pha
+response  1:2 Pers_CR/arfnewreg/90202046004/newregA2.rmf
+response  2:2 Pers_CR/arfnewreg/90202046004/newregA2.rmf
+response  3:2 Pers_CR/arfnewreg/90202046004/newregA2.rmf
+response  4:2 Pers_CR/arfnewreg/90202046004/newregA2.rmf
+arf 1:2 Pers_CR/arfnewreg/90202046004/newregA1_2.arf
+arf 2:2 Pers_CR/arfnewreg/90202046004/newregA2_2.arf
+arf 3:2 Pers_CR/arfnewreg/90202046004/newregA3_2.arf
+arf 4:2 Pers_CR/arfnewreg/90202046004/newregA4_2.arf
+backgrnd 2 Pers_CR/arfnewreg/90202046004/bgdnewregA2.pha
+
+data 3:3 Pers_CR/arfnewreg/90202046004/newregA3.pha
+response  1:3 Pers_CR/arfnewreg/90202046004/newregA3.rmf
+response  2:3 Pers_CR/arfnewreg/90202046004/newregA3.rmf
+response  3:3 Pers_CR/arfnewreg/90202046004/newregA3.rmf
+response  4:3 Pers_CR/arfnewreg/90202046004/newregA3.rmf
+arf 1:3 Pers_CR/arfnewreg/90202046004/newregA1_3.arf
+arf 2:3 Pers_CR/arfnewreg/90202046004/newregA2_3.arf
+arf 3:3 Pers_CR/arfnewreg/90202046004/newregA3_3.arf
+arf 4:3 Pers_CR/arfnewreg/90202046004/newregA4_3.arf
+backgrnd 3 Pers_CR/arfnewreg/90202046004/bgdnewregA3.pha
+
+data 4:4 Pers_CR/arfnewreg/90202046004/newregB1.pha
+response  1:4 Pers_CR/arfnewreg/90202046004/newregB1.rmf
+response  2:4 Pers_CR/arfnewreg/90202046004/newregB1.rmf
+response  3:4 Pers_CR/arfnewreg/90202046004/newregB1.rmf
+response  4:4 Pers_CR/arfnewreg/90202046004/newregB1.rmf
+arf 1:4 Pers_CR/arfnewreg/90202046004/newregB1_1.arf
+arf 2:4 Pers_CR/arfnewreg/90202046004/newregB2_1.arf
+arf 3:4 Pers_CR/arfnewreg/90202046004/newregB3_1.arf
+arf 4:4 Pers_CR/arfnewreg/90202046004/newregB4_1.arf
+backgrnd 4 Pers_CR/arfnewreg/90202046004/bgdnewregB1.pha
+
+data 5:5 Pers_CR/arfnewreg/90202046004/newregB2.pha
+response  1:5 Pers_CR/arfnewreg/90202046004/newregB2.rmf
+response  2:5 Pers_CR/arfnewreg/90202046004/newregB2.rmf
+response  3:5 Pers_CR/arfnewreg/90202046004/newregB2.rmf
+response  4:5 Pers_CR/arfnewreg/90202046004/newregB2.rmf
+arf 1:5 Pers_CR/arfnewreg/90202046004/newregB1_2.arf
+arf 2:5 Pers_CR/arfnewreg/90202046004/newregB2_2.arf
+arf 3:5 Pers_CR/arfnewreg/90202046004/newregB3_2.arf
+arf 4:5 Pers_CR/arfnewreg/90202046004/newregB4_2.arf
+backgrnd 5 Pers_CR/arfnewreg/90202046004/bgdnewregB2.pha
+
+data 6:6 Pers_CR/arfnewreg/90202046004/newregB3.pha
+response  1:6 Pers_CR/arfnewreg/90202046004/newregB3.rmf
+response  2:6 Pers_CR/arfnewreg/90202046004/newregB3.rmf
+response  3:6 Pers_CR/arfnewreg/90202046004/newregB3.rmf
+response  4:6 Pers_CR/arfnewreg/90202046004/newregB3.rmf
+arf 1:6 Pers_CR/arfnewreg/90202046004/newregB1_3.arf
+arf 2:6 Pers_CR/arfnewreg/90202046004/newregB2_3.arf
+arf 3:6 Pers_CR/arfnewreg/90202046004/newregB3_3.arf
+arf 4:6 Pers_CR/arfnewreg/90202046004/newregB4_3.arf
+backgrnd 6 Pers_CR/arfnewreg/90202046004/bgdnewregB3.pha
+ignore 1:1-35,648-898 2:1-35,601-1124 3:1-35,666-1928 4:1-35,644-891 5:1-35,595-1081 6:1-35,662-1872
+
+method leven 10 0.01
+abund angr
+xsect vern
+cosmo 70 0 0.73
+xset delta 0.01
+systematic 0
+model  1:s1 powerlaw + gaussian*constant
+        1.90616        0.1          0          0         10         10
+      0.0129863      0.002          0          0          1          1
+        6.50601        0.5          0          0      1e+06      1e+06
+       0.125777        0.5          0          0         10         10
+    0.000321764        0.1          0          0          1          1
+              1         -1          0          0          2          2
+= s1:p1
+= s1:p2
+= s1:p3
+= s1:p4
+= s1:p5
+= s1:p6
+= s1:p1
+= s1:p2
+= s1:p3
+= s1:p4
+= s1:p5
+= s1:p6
+= s1:p1
+= s1:p2
+= s1:p3
+= s1:p4
+= s1:p5
+              1      -0.01          0          0      1e+10      1e+10
+= s1:p1
+= s1:p2
+= s1:p3
+= s1:p4
+= s1:p5
+= s1:p24
+= s1:p1
+= s1:p2
+= s1:p3
+= s1:p4
+= s1:p5
+= s1:p24
+model  2:s2 apec*constant
+        4.45368      0.002          0          0         10         10
+      0.0118456       0.08          0          0          1          1
+       0.177858     0.0007     -0.999     -0.999         10         10
+       0.132581    0.00563          0          0          1          1
+= s1:p6
+= s2:p1
+= s2:p2
+= s2:p3
+= s2:p4
+= s2:p5
+= s2:p1
+= s2:p2
+= s2:p3
+= s2:p4
+= s2:p5
+= s2:p1
+= s2:p2
+= s2:p3
+= s2:p4
+= s1:p24
+= s2:p1
+= s2:p2
+= s2:p3
+= s2:p4
+= s2:p20
+= s2:p1
+= s2:p2
+= s2:p3
+= s2:p4
+= s2:p20
+model  3:s3 apec*constant
+        4.47899       0.03          0          0         10         10
+       0.406063     0.0097          0          0          1          1
+      0.0274533   0.000836          0          0          1          1
+       0.189548   0.000777          0          0          1          1
+= s1:p6
+= s3:p1
+= s3:p2
+= s3:p3
+= s3:p4
+= s3:p5
+= s3:p1
+= s3:p2
+= s3:p3
+= s3:p4
+= s3:p5
+= s3:p1
+= s3:p2
+= s3:p3
+= s3:p4
+= s1:p24
+= s3:p1
+= s3:p2
+= s3:p3
+= s3:p4
+= s3:p20
+= s3:p1
+= s3:p2
+= s3:p3
+= s3:p4
+= s3:p20
+model  4:s4 apec*constant
+        5.96476       0.11          0          0         10         10
+       0.268373     0.0196          0          0          1          1
+      0.0251525    0.00299          0          0          1          1
+       0.164654   0.000425          0          0          1          1
+= s1:p6
+= s4:p1
+= s4:p2
+= s4:p3
+= s4:p4
+= s4:p5
+= s4:p1
+= s4:p2
+= s4:p3
+= s4:p4
+= s4:p5
+= s4:p1
+= s4:p2
+= s4:p3
+= s4:p4
+= s1:p24
+= s4:p1
+= s4:p2
+= s4:p3
+= s4:p4
+= s4:p20
+= s4:p1
+= s4:p2
+= s4:p3
+= s4:p4
+= s4:p20
